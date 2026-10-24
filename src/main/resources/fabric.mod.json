@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wmp_animatedarchitecture",
+  "version": "${version}",
+  "name": "WMP Animated Architecture (Fabric 1.21.1)",
+  "description": "Port of AnimatedArchitecture / Big Doors & 4-Way Elevators for Wonderment Productions on Fabric 1.21.1!",
+  "authors": ["Wonderment Productions (WMP)"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wmp.animatedarchitecture.WmpAnimatedArchitectureMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
